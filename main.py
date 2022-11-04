@@ -2,7 +2,11 @@ import requests
 import datetime
 import my_env_val
 import os
+my_env_val.set_var()
 
+NUTRITION_ID = os.environ.get("XXX")
+APP_KEY = os.environ.get("XXX")
+TOKEN = os.environ.get("XXX")
 
 
 def exercise():
